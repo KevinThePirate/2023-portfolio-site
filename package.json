@@ -1,0 +1,46 @@
+{
+  "homepage": "https://kevinthepirate.github.io/2021-Portfolio/",
+  "name": "react-fullpagejs-example",
+  "version": "1.0.0",
+  "keywords": [
+    "react-fullpage",
+    "component",
+    "fullpage.js"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@fullpage/react-fullpage": "latest",
+    "framer-motion": "^8.4.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-lorem-ipsum": "^1.4.10",
+    "react-router": "^6.6.2",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.4",
+    "web-vitals": "^3.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm-run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
